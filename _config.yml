@@ -1,0 +1,6 @@
+title: CFSelenium # the site title
+
+url: "https://richardherbert.github.io/CFSelenium" # the base protocol & hostname for your site
+baseurl: "" # the site root
+
+exclude: ['CNAME', '*.sublime-*'] # files to ignore when generating the _site folder
