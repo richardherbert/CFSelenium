@@ -17,6 +17,7 @@ component extends='_tests.basetests.BaseSpecTest' {
 			break;
 
 			default:
+				var webDriverFilename = 'geckodriver';
 // I need to figure out how to get TestBox to end the test
 // suite if the operating system isn't supported
 			break;
