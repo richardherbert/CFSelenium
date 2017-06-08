@@ -22,6 +22,6 @@ install:
 before_script:
 - box server start cfengine=$ENGINE port=8500
 script:
-- box testbox run runner="http://127.0.0.1:8500/cfselenium/_tests/runner.cfm"
+- box testbox run runner="http://127.0.0.1:8500/_tests/runner.cfm"
 notifications:
     email: false
