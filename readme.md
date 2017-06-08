@@ -1,3 +1,6 @@
+![Build Status](https://travis-ci.org/richardherbert/CFSelenium.svg?branch=master)
+
+
 [CFSelenium](http://github.com/teamcfadvance/CFSelenium) - A Native CFML (ColdFusion) Client Library for the [Selenium WebDriver](http://www.seleniumhq.org/)
 =============================================================================================================
 
