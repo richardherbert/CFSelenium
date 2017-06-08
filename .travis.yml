@@ -5,7 +5,8 @@ jdk:
 cache:
   directories:
   - $HOME/.CommandBox
-os: osx
+git:
+  depth: 1
 env:
   matrix:
     - ENGINE=lucee@4.5
