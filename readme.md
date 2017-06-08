@@ -1,5 +1,4 @@
-![Build Status](https://travis-ci.org/richardherbert/CFSelenium.svg?branch=travis-test)
-
+[![Build Status](https://travis-ci.org/richardherbert/CFSelenium.svg?branch=travis-test)](https://travis-ci.org/richardherbert/CFSelenium)
 
 [CFSelenium](http://github.com/teamcfadvance/CFSelenium) - A Native CFML (ColdFusion) Client Library for the [Selenium WebDriver](http://www.seleniumhq.org/)
 =============================================================================================================
