@@ -1,12 +1,10 @@
 language: java
 sudo: required
-os: osx
-osx_image: xcode8.3
+jdk:
+- oraclejdk8
 cache:
   directories:
   - $HOME/.CommandBox
-git:
-  depth: 1
 env:
   matrix:
     - ENGINE=lucee@4.5
