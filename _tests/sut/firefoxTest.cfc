@@ -49,7 +49,7 @@ component extends='_tests.basetests.BaseSpecTest' {
 	function afterAll() {
 		super.afterAll();
 
-		driver.close();
+//		driver.close();
 	}
 
 	function run( testResults, testBox ) {
