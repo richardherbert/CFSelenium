@@ -5,6 +5,8 @@ jdk:
 cache:
   directories:
   - $HOME/.CommandBox
+addons:
+  firefox: "latest"
 env:
   matrix:
     - ENGINE=lucee@4.5
