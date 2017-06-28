@@ -21,18 +21,7 @@ component extends='_tests.basetests.BaseSpecTest' {
 // I need to figure out how to get TestBox to end the test
 // suite if the operating system isn't supported
 			break;
-		}
-		
-		
-		
-		
-		
-		
-		var webDriverFilename = 'geckodriver';
-		
-		
-		
-		
+		}		
 
 // https://github.com/mozilla/geckodriver/releases
 		var webDriverFilePathname = getDirectoryFromPath( getCurrentTemplatePath() ) & '../../webdrivers/#webDriverFilename#';
@@ -49,7 +38,7 @@ component extends='_tests.basetests.BaseSpecTest' {
 	function afterAll() {
 		super.afterAll();
 
-//		driver.close();
+		driver.close();
 	}
 
 	function run( testResults, testBox ) {
